@@ -33,9 +33,17 @@ Used Kaggle microplastic segmentation datasets containing:
 - binary segmentation masks
 
 Dataset includes:
-- training set
-- validation set
-- test set
+- Training set: 1,531 image-mask pairs
+- Validation set: 202 image-mask pairs
+- Test set: 202 images
+
+##  Visual Results
+
+### Training Curves
+![Training Curves](assets/training_curves.png)
+
+### Weighted BCE Prediction
+![Prediction](assets/weighted_bce_prediction.png)   
 
 ---
 
